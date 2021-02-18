@@ -6,8 +6,8 @@ import (
     "github.com/gorilla/mux"
     "io/ioutil"
     "log"
-    "techtrain_go_development/config"
-    "techtrain_go_development/models"
+    "techtrain-go/config"
+    "techtrain-go/models"
     "net/http"
     "strconv"
 )
