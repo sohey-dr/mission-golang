@@ -10,9 +10,6 @@ import (
     "time"
 )
 
-// json: ~ をパラメータに付与すると、jsonエンコード時にパラメータ名を指定することができます。
-// また、omitemptyを付与するとパラメータが空のときに、jsonのパラメータから消すことができます。
-// これはクライアントアプリと仕様を統一する必要があります。
 type ItemParams struct {
     Id           string    `json:"id"`
     JanCode      string    `json:"jan_code,omitempty"`
